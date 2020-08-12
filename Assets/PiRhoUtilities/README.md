@@ -548,9 +548,16 @@ Install: `https://github.com/janmikusch/PiRhoUtilities.git#upm`
 
 #### TagSelector
 
-And again for Dictionary. KeyType must be `string` in order to be targeted by the `DictionaryAttribute`
-
+Dropdown Drawer for all definedTags, has to be a `string` field
 ```c#
 [TagSelector] public string tag;
 [TagSelector] public string[] tagArray;
+```
+
+#### SceneSelector
+
+Dropdown Drawer for all scenes defined in build settings, has to be a `string` field
+```c#
+[TagSelector] public string scene;
+[TagSelector] public string[] sceneArray;
 ```
