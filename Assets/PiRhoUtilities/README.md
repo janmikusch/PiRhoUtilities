@@ -539,3 +539,18 @@ public class ExampleBehaviour : MonoBehaviour
 	[Dictionary] public IntDictionary Dictionary = new IntDictionary();
 }
 ```
+
+
+----
+## Custom added (https://github.com/janmikusch/PiRhoUtilities/)
+
+Install: `https://github.com/janmikusch/PiRhoUtilities.git#upm`
+
+#### TagSelector
+
+And again for Dictionary. KeyType must be `string` in order to be targeted by the `DictionaryAttribute`
+
+```c#
+[TagSelector] public string tag;
+[TagSelector] public string[] tagArray;
+```
