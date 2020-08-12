@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/janmikusch/PiRhoUtilities/compare/v1.0.0...v1.1.0) (2020-08-12)
+
+
+### Features
+
+* increase package.json version ([f3e87e1](https://github.com/janmikusch/PiRhoUtilities/commit/f3e87e129ec2932412cb5124e92621754703afc7))
+
 # 1.0.0 (2020-08-12)
 
 
